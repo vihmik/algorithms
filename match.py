@@ -1,5 +1,4 @@
-def match(n, v):
-    
+def match(n, v):   
     res = []
     for i in range(len(n)):
         if n[i] == v:
@@ -8,4 +7,5 @@ def match(n, v):
             i = i + 1
     if res == []:
         return "Nil"
-    else: return res
+    else: 
+        return res
